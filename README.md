@@ -41,7 +41,13 @@ Para executar o projeto:
 ```sh
 git clone https://github.com/Chila-Studio/AdaCodeStudio.git
 cd AdaCodeStudio
-dotnet run
+dotnet run -p src/AdaCodeStudio.API/
+```
+
+Para executar os testes:
+
+```sh
+dotnet test
 ```
 
 ## Como contribuir
